@@ -348,7 +348,3 @@ Multi-head self-attention allows each timestep to directly attend to any other p
 This project is for academic purposes under CT-471 at NED University of Engineering & Technology.
 
 ---
-
-  <b>NED University of Engineering & Technology</b><br>
-  Department of Computer Science & IT — Data Science<br>
-  CT-471 Data Analytics and Visualization | 2024

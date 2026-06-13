@@ -1,7 +1,5 @@
 # 📊 Digital Media Analytics with Intelligent Decision Support System
 
-<div align="center">
-
 ![NED University](https://img.shields.io/badge/NED%20University-Engineering%20%26%20Technology-blue?style=for-the-badge)
 ![Course](https://img.shields.io/badge/Course-CT--471%20DAV-green?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge&logo=python)
@@ -351,8 +349,6 @@ This project is for academic purposes under CT-471 at NED University of Engineer
 
 ---
 
-<div align="center">
   <b>NED University of Engineering & Technology</b><br>
   Department of Computer Science & IT — Data Science<br>
   CT-471 Data Analytics and Visualization | 2024
-</div>

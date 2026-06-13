@@ -16,18 +16,7 @@
 
 ---
 
-## 👥 Team Members
-
-| Name | Student ID |
-|---|---|
-| Maham Tahir | DT-22001 |
-| Afifa Siddiqui | DT-22003 |
-| Sabrina Shahzad | DT-22026 |
-| Muhammad Saria | DT-22036 |
-
----
-
-## 📌 Overview
+##  Overview
 
 This project presents a complete end-to-end **Digital Media Analytics pipeline** for four leading Pakistani YouTube channels — **Ajj TV**, **Hum TV**, **Raftaar TV**, and **Studio One**. The system continuously monitors, evaluates, and derives strategic insights from multi-channel engagement data.
 
@@ -49,7 +38,7 @@ The pipeline addresses **14 distinct analytical tasks** spanning:
 
 ---
 
-## 🏗️ Architecture & Technical Stack
+##  Architecture & Technical Stack
 
 ### Channel Parameters (Synthetic Dataset)
 
@@ -77,7 +66,7 @@ The pipeline addresses **14 distinct analytical tasks** spanning:
 
 ---
 
-## 📋 Task Breakdown (Q1–Q14)
+##  Task Breakdown (Q1–Q14)
 
 ### Q1 — Synthetic Data Generation
 - **500,000 video records** across 4 channels, serialized in Apache Parquet (Snappy compression)
@@ -172,7 +161,7 @@ Top predictors: `engagement_momentum`, `views_ema_7d`, `norm_engagement_idx`
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```
 digital-media-analytics/
@@ -236,7 +225,7 @@ digital-media-analytics/
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 - Python 3.10+
@@ -297,7 +286,7 @@ jupyter lab notebooks/Q8_Predictive_Modeling.ipynb
 
 ---
 
-## 📊 Key Results Summary
+##  Key Results Summary
 
 | Task | Method | Key Metric |
 |---|---|---|
@@ -318,7 +307,7 @@ jupyter lab notebooks/Q8_Predictive_Modeling.ipynb
 
 ---
 
-## 🔑 Design Decisions
+##  Design Decisions
 
 **Why Consensus Outlier Detection?**  
 Each method (Z-Score, IQR, Isolation Forest) has different failure modes. Requiring ≥2/3 agreement reduces false positives — a genuinely viral video correctly triggers Z-score but is retained by Isolation Forest.
@@ -334,7 +323,7 @@ Multi-head self-attention allows each timestep to directly attend to any other p
 
 ---
 
-## 📈 Strategic Recommendations (Q14)
+##  Strategic Recommendations (Q14)
 
 | Channel | Composite Score | Primary Action |
 |---|---|---|
@@ -345,7 +334,7 @@ Multi-head self-attention allows each timestep to directly attend to any other p
 
 ---
 
-## 📚 References
+##  References
 
 - Kipf & Welling (2017). Semi-Supervised Classification with Graph Convolutional Networks. *ICLR*.
 - Lim et al. (2021). Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting. *Int. J. Forecasting*.
@@ -356,7 +345,7 @@ Multi-head self-attention allows each timestep to directly attend to any other p
 
 ---
 
-## 📄 License
+##  License
 
 This project is for academic purposes under CT-471 at NED University of Engineering & Technology.
 
